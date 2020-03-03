@@ -1,0 +1,13 @@
+ssh_authorized_keys:
+  - github:gumbagubanga
+
+k3os:
+  dns_nameservers:
+    - 1.1.1.1
+    - 8.8.8.8
+    - 192.168.0.1
+  ntp_servers:
+    - 0.de.pool.ntp.org
+    - 1.de.pool.ntp.org
+  server_url: https://192.168.0.15:6443
+  token: A_RANDOM_TOKEN_YOU_LIKE
